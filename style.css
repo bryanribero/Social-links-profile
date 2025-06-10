@@ -41,7 +41,7 @@ body {
 .container-buttons {
     display: flex;
     flex-direction: column;
-    gap: .75em;
+    gap: .9em;
 }
 
 span {
@@ -61,7 +61,7 @@ p {
     color: hsl(0, 0%, 100%);
     background-color: hsl(0, 0%, 20%);
     border-radius: 6px;
-    padding: 0.8em 0em;
+    padding: 1em 0em;
     width: 100%;
     font-size: 14px;
     font-weight: 600;
