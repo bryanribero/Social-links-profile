@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    gap: 1.7em;
+    padding: 2.5em 2em;
+    border-radius: 3%;
+    width: 370px;
+}
+
+.container-img {
+    margin: auto;
+}
+
+.card img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.container-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: .75em;
+}
+
+span {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.623);
+}
+
+.card button {
+    all: unset;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 6px;
+    padding: 0.8em 0em;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease-out .3s;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.card button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+.card a {
+    all: unset;
+}
+
+@media (max-width: 375px){
+    .card {
+        width: 290px;
+        gap: 1.5em;
+        padding: 1.25em 1em;
+    }
+    p {
+        font-size: 12px;
+    }
+}
